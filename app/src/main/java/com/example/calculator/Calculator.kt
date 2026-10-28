@@ -250,8 +250,8 @@ fun Calculator(state: CalculatorState,
                     symbol = "+/-",
                     modifier = Modifier
                         .background(LightGray)
-                        .aspectRatio(2f)
-                        .weight(2f),
+                        .aspectRatio(1f)
+                        .weight(1f),
                     onClick = {
                         onAction(CalculatorAction.ChangeSign)
                     }
